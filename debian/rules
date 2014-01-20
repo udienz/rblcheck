@@ -1,0 +1,49 @@
+#!/usr/bin/make -f
+SHELL+= -e
+
+#export DH_VERBOSE=1
+
+D := $(CURDIR)/debian/rblcheck
+
+CFLAGS ?= -O2 -g
+
+build: build-stamp
+build-stamp:
+	dh_testdir
+	$(CC) $(CFLAGS) -o rblcheck rblcheck.c -lresolv
+	cd docs && sgmltools -b lynx rblcheck.sgml
+#	cd docs && sgmltools -b onehtml rblcheck.sgml
+	touch $@
+
+clean:
+	dh_testroot
+	dh_testdir
+	rm -f build-stamp
+	rm -f rblcheck docs/rblcheck.txt docs/rblcheck.html
+	dh_clean
+
+binary-arch: build
+	dh_testroot
+	dh_testdir
+	dh_clean -k
+
+	dh_installdirs usr/bin
+	cp rblcheck $D/usr/bin/
+	dh_installdocs README NEWS docs/rblcheck.txt # docs/rblcheck.html
+	dh_installexamples
+	rm -rf $D/usr/share/doc/rblcheck/examples/*/CVS/
+	dh_installman rblcheck.1
+	dh_installchangelogs ChangeLog
+	dh_strip
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_builddeb
+
+binary-indep:
+
+binary: binary-arch
+
+.PHONY: build clean binary-arch binary-indep binary

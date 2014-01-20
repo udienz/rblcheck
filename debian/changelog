@@ -1,0 +1,128 @@
+rblcheck (20020316-7ubuntu1+ppa2) saucy; urgency=low
+
+  * remove \
+
+ -- Mahyuddin Susanto <udienz@gmail.com>  Mon, 20 Jan 2014 10:11:45 +0700
+
+rblcheck (20020316-7ubuntu1+ppa1) saucy; urgency=low
+
+  * Add b.barracudacentral.org and use dnsbl.sorbs.net. 
+
+ -- Mahyuddin Susanto <udienz@gmail.com>  Mon, 20 Jan 2014 09:50:32 +0700
+
+rblcheck (20020316-7) unstable; urgency=medium
+
+  * Removed the dead list.dsbl.org zone.
+  * Added psbl.surriel.com.
+  * Clarified the semantics of -q in the documentation. (Closes: #128043)
+
+ -- Marco d'Itri <md@linux.it>  Tue, 08 Dec 2009 16:43:30 +0100
+
+rblcheck (20020316-6) unstable; urgency=low
+
+  * Added a man page for rblcheck(1). (Closes: #87114, #131541)
+  * Added the binary-indep target to debian/rules. (Closes: #395740)
+  * Fixed the help text for the -s option. (Closes: #285310)
+  * Removed SPEWS.
+  * Added pbl.spamhaus.org and bl.spamcop.net. (Closes: #406071)
+  * s/RBL/DNSBL/ where practical.
+
+ -- Marco d'Itri <md@linux.it>  Sun, 20 Apr 2008 17:37:50 +0200
+
+rblcheck (20020316-5) unstable; urgency=high
+
+  * Removed *.easynet.nl. (Closes: #224630)
+  * Added dul.dnsbl.sorbs.net.
+  * cbl.abuseat.org changed in xbl.spamhaus.org.
+
+ -- Marco d'Itri <md@linux.it>  Fri,  2 Jan 2004 23:15:56 +0100
+
+rblcheck (20020316-4) unstable; urgency=low
+
+  * Removed relays.osirusoft.com. (Closes: #207472)
+  * Removed proxies.relays.monkeys.com, opm.blitzed.org and relays.ordb.org.
+  * Added cbl.abuseat.org, sbl.spamhaus.org, blackholes.easynet.nl,
+    dynablock.easynet.nl, l1.spews.dnsbl.sorbs.net.
+
+ -- Marco d'Itri <md@linux.it>  Wed, 27 Aug 2003 20:59:26 +0200
+
+rblcheck (20020316-3) unstable; urgency=medium
+
+  * Removed ztl.dorkslayers.com, blacklist.spambag.org and
+    relays.ordb.org, added list.dsbl.org and proxies.relays.monkeys.com.
+
+ -- Marco d'Itri <md@linux.it>  Thu, 23 Jan 2003 13:32:24 +0100
+
+rblcheck (20020316-2) unstable; urgency=medium
+
+  * Removed ORBZ zones (Closes: #139216).
+
+ -- Marco d'Itri <md@linux.it>  Wed, 20 Mar 2002 20:30:07 +0100
+
+rblcheck (20020316-1) unstable; urgency=low
+
+  * New upstream release.
+  * More zones added: dnsbl.njabl.org, ztl.dorkslayers.com,
+    blacklist.spambag.org, opm.blitzed.org. Removed orbs.dorkslayers.com.
+
+ -- Marco d'Itri <md@linux.it>  Sat, 16 Mar 2002 15:01:21 +0100
+
+rblcheck (20010424-5) unstable; urgency=medium
+
+  * Removed dead ORBZ zone.
+
+ -- Marco d'Itri <md@linux.it>  Thu, 13 Dec 2001 01:44:56 +0100
+
+rblcheck (20010424-4) unstable; urgency=medium
+
+  * Removed dead orbl.org zone (Closes: #115592)
+
+ -- Marco d'Itri <md@linux.it>  Sat,  3 Nov 2001 14:53:05 +0100
+
+rblcheck (20010424-3) unstable; urgency=low
+
+  * Removed references to MAPS domains (Closes: #104523).
+  * Added other ORBS clones (Closes: #103540).
+  * Added build dependency on w3m (Closes: #97503).
+
+ -- Marco d'Itri <md@linux.it>  Fri,  3 Aug 2001 19:49:00 +0200
+
+rblcheck (20010424-2) unstable; urgency=low
+
+  * Removed references to ORBS, added references to ORBS clones
+    (Closes: #101461).
+
+ -- Marco d'Itri <md@linux.it>  Mon,  2 Jul 2001 21:16:32 +0200
+
+rblcheck (20010424-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Marco d'Itri <md@linux.it>  Tue, 24 Apr 2001 19:31:56 +0200
+
+rblcheck (20010130-3) unstable; urgency=medium
+
+  * Updated mail-abuse.org domains.
+
+ -- Marco d'Itri <md@linux.it>  Sun,  4 Feb 2001 20:42:43 +0100
+
+rblcheck (20010130-2) unstable; urgency=low
+
+  * Fixed broken -t option.
+
+ -- Marco d'Itri <md@linux.it>  Fri,  2 Feb 2001 14:00:49 +0100
+
+rblcheck (20010130-1) unstable; urgency=low
+
+  * New upstream version, new maintainer.
+  * WARNING: new checks have been added to the default list.
+
+ -- Marco d'Itri <md@linux.it>  Wed, 31 Jan 2001 14:41:30 +0100
+
+rblcheck (19990221-1) unstable; urgency=low
+
+  * New upstream version, and first release as an independent package.  Was
+    formerly part of dnsutils, separated as part of the restructuring motivated
+    by the release of BIND 9.
+
+ -- Bdale Garbee <bdale@gag.com>  Sat, 27 Jan 2001 02:08:58 -0700
