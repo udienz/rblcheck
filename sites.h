@@ -64,11 +64,13 @@
 /* SITE("relays.ordb.org") */
 
 
-SITE("sbl.spamhaus.org");
-SITE("xbl.spamhaus.org");
-SITE("pbl.spamhaus.org");
+SITE("zen.spamhaus.org");
+SITE("sbl-xbl.spamhaus.org");
+SITE("psbl.surriel.com");
 SITE("bl.spamcop.net");
 /*SITE("psbl.surriel.com");
 SITE("dnsbl.njabl.org");*/
 SITE("dnsbl.sorbs.net");
 SITE("b.barracudacentral.org");
+SITE("list.bbfh.org");
+SITE("spam.spamrats.com");
