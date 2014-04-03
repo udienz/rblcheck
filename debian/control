@@ -1,7 +1,8 @@
 Source: rblcheck
 Section: net
 Priority: extra
-Maintainer: Marco d'Itri <md@linux.it>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Marco d'Itri <md@linux.it>
 Vcs-Svn: https://rblcheck.svn.sourceforge.net/svnroot/rblcheck
 Vcs-Browser: http://rblcheck.svn.sourceforge.net/viewvc/rblcheck/
 Build-Depends: debhelper (>= 5), sgmltools-lite, lynx
