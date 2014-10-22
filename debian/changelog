@@ -1,3 +1,9 @@
+rblcheck (20020316-8ubuntu1+ppa1) UNRELEASED; urgency=medium
+
+  * Add ipns.de and sorbs
+
+ -- Mahyuddin Susanto <udienz@gmail.com>  Wed, 22 Oct 2014 14:08:22 +0700
+
 rblcheck (20020316-7ubuntu1+ppa3) precise; urgency=low
 
   * Add DNSBL:

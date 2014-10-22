@@ -68,8 +68,8 @@ SITE("zen.spamhaus.org");
 SITE("sbl-xbl.spamhaus.org");
 SITE("psbl.surriel.com");
 SITE("bl.spamcop.net");
-/*SITE("psbl.surriel.com");
-SITE("dnsbl.njabl.org");*/
+SITE("spam.dnsbl.sorbs.net");
+SITE("dnsbl.inps.de");
 SITE("dnsbl.sorbs.net");
 SITE("b.barracudacentral.org");
 SITE("list.bbfh.org");
