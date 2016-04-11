@@ -1,15 +1,16 @@
---- a/sites.h
-+++ b/sites.h
-@@ -62,3 +62,12 @@
+Index: rblcheck-20020316/sites.h
+===================================================================
+--- rblcheck-20020316.orig/sites.h	2016-04-11 13:00:39.344106803 -0700
++++ rblcheck-20020316/sites.h	2016-04-11 13:00:52.728039365 -0700
+@@ -62,3 +62,11 @@
  /* ORDB: Open Relay DataBase
     http://www.ordb.org/ */
  /* SITE("relays.ordb.org") */
 +
 +
-+SITE("sbl.spamhaus.org");
-+SITE("xbl.spamhaus.org");
-+SITE("pbl.spamhaus.org");
++SITE("sbl-xbl.spamhaus.org");
++SITE("zen.spamhaus.org");
++SITE("list.bbfh.org");
 +SITE("bl.spamcop.net");
 +SITE("psbl.surriel.com");
 +SITE("dul.dnsbl.sorbs.net");
-+

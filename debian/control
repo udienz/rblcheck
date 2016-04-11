@@ -1,7 +1,8 @@
 Source: rblcheck
 Section: net
 Priority: extra
-Maintainer: Marco d'Itri <md@linux.it>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Marco d'Itri <md@linux.it>
 Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 8), docbook-utils, lynx
 

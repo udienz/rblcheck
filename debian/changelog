@@ -1,3 +1,15 @@
+rblcheck (20020316-8ubuntu0.1~14.04~ppa1) trusty; urgency=medium
+
+  * Remove dead RBL provider and add active
+    + Add DNSBL:
+      - list.bbfh.org
+      - zen.spamhausorg
+      - psbl.surriel.com
+    + Remove DNSBL:
+      - {xbl,sbl}.spamhaus.org, merged to sbl-xbl
+
+ -- Mahyuddin Susanto <udienz@ubuntu.com>  Mon, 11 Apr 2016 12:46:48 -0700
+
 rblcheck (20020316-8) unstable; urgency=medium
 
   * Switched from sgmltools-lite to docbook-utils.
