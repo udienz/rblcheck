@@ -1,8 +1,8 @@
 Index: rblcheck-20020316/sites.h
 ===================================================================
---- rblcheck-20020316.orig/sites.h	2016-04-11 13:00:39.344106803 -0700
-+++ rblcheck-20020316/sites.h	2016-04-11 13:00:52.728039365 -0700
-@@ -62,3 +62,11 @@
+--- rblcheck-20020316.orig/sites.h	2016-04-11 17:01:24.883480798 -0700
++++ rblcheck-20020316/sites.h	2016-04-11 17:02:10.463211951 -0700
+@@ -62,3 +62,12 @@
  /* ORDB: Open Relay DataBase
     http://www.ordb.org/ */
  /* SITE("relays.ordb.org") */
@@ -14,3 +14,4 @@ Index: rblcheck-20020316/sites.h
 +SITE("bl.spamcop.net");
 +SITE("psbl.surriel.com");
 +SITE("dul.dnsbl.sorbs.net");
++SITE("dnsbl-1.uceprotect.net");
